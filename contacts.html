@@ -1,0 +1,54 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="gallery.html">Фото</a></li>
+                <li><a href="contacts.html" class="active">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>Свяжитесь со мной</h1>
+        <p>Вы можете написать мне сообщение через форму ниже или найти меня в соцсетях.</p>
+
+        <form action="#" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+
+        <h2>Социальные сети</h2>
+<div class="social-links">
+    <p>
+        <img src="images/telegram-icon.png" alt="Telegram" class="icon">
+        Telegram: <a href="https://t.me/ndeyles" target="_blank">@ndeyles</a>
+    </p>
+    <p>
+        <img src="images/instagram-icon.png" alt="Instagram" class="icon">
+        Instagram: <a href="https://www.instagram.com/n.deyles" target="_blank">@n.deyles</a>
+    </p>
+    <p>
+        <img src="images/email-icon.png" alt="Email" class="icon">
+        Email: <a href="mailto:ndeyles@gmail.com">ndeyles@gmail.com</a>
+    </p>
+</div>
+    </section>
+</body>
+</html>
